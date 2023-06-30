@@ -1,13 +1,43 @@
 # ProFluency-Network (Processing Fluency Neural Network)
 
-### Contents
+Below I give a short summary of the contents and the most important files 
 
-The amount of code and data grew gradually during the thesis' progress.    
-I have worked with prefixes to organize them.  
-The python files + Eviews regressions are in :file_folder:Codes  
-The figures and LaTeX scripts are in :file_folder:LaTeX
+# 📁 Codes
 
-### Prefixes
+### 📁 controls
+The variables for the panel regressions are stored here.  
+These include the **control variables** from Compustat.
+
+### 📁 data
+Raw data that are either directly from the source or used to give extra insights.  
+`data_nyse_screener.xlsx` contains the (cleaned) **company names** from the NASDAQ Screener.   
+`data_lemma_internet.txt` is the **frequency list**, note that you to multiply the frequencies woth 181,376 to get the total amount of occurences.  
+`data_lexicon.xlsx` is the **lexicon**, the list that contains many English words.
+
+### 📁 neural network
+This file contains the architecture of the neural network.
+
+### 📁 output neural network
+`z_predictions_100x.xlsx` is the file that contains the **fluency predictions** for each name.
+
+### 📁 panel regressions
+Contains the panel regressions in Eviews.
+
+### 📁 pyhton
+Contains Jupyter Notebook files written in python.
+
+# LaTeX
+
+### 📁 figures
+Contains the figures that are used in this project.
+
+### 🗒️ library.bib
+Bibtex style references to other studies.
+
+### 🗒️ main.tex
+This file contains the thesis written in LaTeX.
+
+# Prefixes
 
 * `data_`             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Raw data obtained from scources
 
