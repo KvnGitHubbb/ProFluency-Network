@@ -9,21 +9,22 @@ The variables for the panel regressions are stored here.
 These include the **control variables** from Compustat.
 
 ### 📁 data
-Raw data that are either directly from the source or used to give extra insights.  
+Raw data that are either directly from the source or used to give extra insights. 
+
 `data_nyse_screener.xlsx` contains the (cleaned) **company names** from the NASDAQ Screener.   
-`data_lemma_internet.txt` is the **frequency list**, note that you to multiply the frequencies woth 181,376 to get the total amount of occurences.  
-`data_lexicon.xlsx` is the **lexicon**, the list that contains many English words.
+`data_lemma_internet.txt` is the **frequency list**, note that you to multiply the 'frequency' with 181,376 to get the real total amount of occurences.  
+`data_lexicon.xlsx` is the **lexicon**, the list that contains many English words. 
 
 ### 📁 neural network
 This file contains the architecture of the neural network.
 
 ### 📁 output neural network
-`z_predictions_100x.xlsx` is the file that contains the **fluency predictions** for each name.
+`z_predictions_100x.xlsx` is the file that contains the **fluency predictions** for each company name.
 
 ### 📁 panel regressions
-Contains the panel regressions in Eviews.
+Contains the 3 **panel regressions** in Eviews.
 
-### 📁 pyhton
+### 📁 python
 Contains Jupyter Notebook files written in python.
 
 # LaTeX
@@ -38,6 +39,7 @@ Bibtex style references to other studies.
 This file contains the thesis written in LaTeX.
 
 # Prefixes
+If you were curious why... 💭
 
 * `data_`             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Raw data obtained from scources
 
